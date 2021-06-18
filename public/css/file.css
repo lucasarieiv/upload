@@ -1,0 +1,77 @@
+.container {
+  width: 860px;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.8rem;
+  box-shadow: 0 0 15px rgba(194, 207, 221, .4);
+}
+
+.content-input {
+  cursor: pointer;
+  border: 3px dashed #c2cfdd;
+  border-radius: 30px;
+  transition: border-color 200ms, background 200ms;
+}
+
+.content-input:hover {
+  background: rgb(215, 234, 255);
+  border-color: #208aff;
+}
+
+.content-input div {
+  color: #208aff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-input div h1 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #1c4f82;
+  margin: 1rem 0;
+}
+.content-input div span {
+  color: #208aff;
+}
+
+.content-input div p {
+  text-align: center;
+  font-weight: 600;
+  color: #c2cfdd;
+}
+
+.content-input input {
+  width: 100%;
+  height: 260px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.content-input button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -25%;
+  font-size: 1.6rem;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  padding: .8rem 2rem;
+  background: #208aff;
+  filter: opacity(1);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: filter 200ms;
+}
+
+.content-input button:hover {
+  filter: opacity(.9);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/file.css">
+  <script src="https://kit.fontawesome.com/17821b54dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content-input">
+      <div>
+        <i class="fas fa-upload fa-7x"></i>
+        <h1>Drop your image here, or <span>browse</span></h1>
+        <p>Supports JPG, PNG, PDF</p>
+      </div>
+      <form action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="files">
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
