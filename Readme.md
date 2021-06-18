@@ -14,4 +14,8 @@ Baseado no Layout Desenvolvido por  🧑 by [Oğuz Yağız Kara](dribbble.com/sh
 - HTML e Css
 - NodeJS
 
+## Como usar:
+- `npm install`
+- `npm start`
+
 
